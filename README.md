@@ -244,7 +244,7 @@ Medicinal_flower/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/Medicinal_flower.git
+git clone https://github.com/mamathapoojaryy43/Medicinal_flower.git
 cd Medicinal_flower
 ```
 
