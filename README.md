@@ -249,14 +249,17 @@ cd Medicinal_flower
 ```
 
 ### 2. Create and Activate a Virtual Environment
+> [!NOTE]
+> TensorFlow requires **Python 3.10, 3.11, or 3.12**. If you have multiple Python versions installed on Windows (e.g. Python 3.14), use the `py -3.12` launcher to ensure the virtual environment is created with Python 3.12.
+
 ```bash
+# Windows (Recommended if multiple Python versions exist)
+py -3.12 -m venv .venv
+.venv\Scripts\Activate.ps1
+
 # macOS / Linux
 python3 -m venv .venv
 source .venv/bin/activate
-
-# Windows (PowerShell)
-python -m venv .venv
-.venv\Scripts\Activate.ps1
 ```
 
 ### 3. Install Dependencies
