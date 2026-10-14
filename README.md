@@ -325,37 +325,6 @@ python predict.py --image sunflower.jpeg --threshold 0.75
 
 ---
 
-## 🧪 Test Suite & Verification
-
-The repository includes test suites to verify functionality:
-
-### 1. Test Web Server Endpoints
-```bash
-python scripts/test_flask_app.py
-```
-Validates resource loading, HTTP 200 response on `GET /`, multipart upload on `POST /predict`, and error handling on invalid files.
-
-### 2. Full 8-Scenario Application Integration Test
-```bash
-python scripts/test_complete_integration.py
-```
-Executes comprehensive end-to-end integration scenarios:
-- Model caching verification (loaded once at startup)
-- Known class recognition (Hibiscus, Rose, Sunflower, Datura)
-- Distinct species recognition (Allium Cepa, Shankupushpam, Marigold)
-- Background invariance across diverse lighting conditions
-- Out-of-distribution synthetic noise and non-flower rejection
-- Unsupported file format safety handling
-- Empty payload boundary checks
-- Consecutive prediction stability (zero memory leak verification)
-
-### 3. Validate Botanical Database
-```bash
-python scripts/validate_flower_information.py
-```
-Confirms that all 31 classes have complete entries in `app/flower_information.json`.
-
----
 
 ## 📦 Dataset Details & Source Attribution
 
@@ -369,45 +338,7 @@ The model was trained on a combined dataset comprising **9,516 curated images** 
 
 ---
 
-## 🎓 Viva & Presentation Q&A Guide
 
-Essential conceptual questions and answers for oral presentations and viva examinations:
-
-<details>
-<summary><b>1. Why did you choose MobileNetV2 over ResNet50 or VGG16?</b></summary>
-<br>
-MobileNetV2 utilizes <b>depthwise separable convolutions</b>, splitting standard convolution into a depthwise spatial filter and a 1x1 pointwise channel combiner. This reduces parameters (~3.5M vs ~25.6M for ResNet50) and floating-point operations by roughly 8x to 9x while retaining comparable accuracy, making it ideal for lightweight, real-time web inference.
-</details>
-
-<details>
-<summary><b>2. Why do you use pre-softmax logits for Grad-CAM instead of softmax probabilities?</b></summary>
-<br>
-When a model classifies an image with high confidence (e.g., 99.9%), the post-softmax score $S_c$ approaches 1.0. Because the derivative of the Softmax function is $\frac{\partial S_c}{\partial z_c} = S_c(1 - S_c)$, the gradient approaches zero ($1.0 \times 0.0 = 0.0$). This causes <b>Softmax gradient saturation</b> and produces dark, zeroed heatmaps. Computing gradients using the unnormalized logit score $z_c$ before Softmax eliminates this problem and preserves strong visual attribution.
-</details>
-
-<details>
-<summary><b>3. Why is the 'out_relu' layer chosen for Grad-CAM?</b></summary>
-<br>
-<code>out_relu</code> is the final 4D convolutional activation layer of MobileNetV2 with shape $(7 \times 7 \times 1280)$. It possesses the highest-level semantic representations (identifying petals, center floret discs, reproductive organs) while retaining 2D spatial coordinates before GlobalAveragePooling flattens the tensor into a 1D vector.
-</details>
-
-<details>
-<summary><b>4. How does the system handle an image of a dog, car, or random object?</b></summary>
-<br>
-Standard softmax always normalizes outputs to sum to 1.0, which forces conventional classifiers to make false-positive predictions on irrelevant images. Our system implements <b>Out-of-Distribution (OOD) Confidence Gating ($\tau = 0.60$)</b>. If the top softmax probability is below 0.60, the prediction is rejected as "Not Recognized / Unsupported".
-</details>
-
-<details>
-<summary><b>5. How did you prevent overfitting during training?</b></summary>
-<br>
-We applied four regularization strategies:
-1. <b>Data Augmentation</b>: Random horizontal flips, rotations ($\pm 10\%$), zooms ($\pm 10\%$), and translations.
-2. <b>Dropout</b>: Two dropout layers ($p = 0.3$) before and after the dense classification head.
-3. <b>Batch Normalization</b>: Placed immediately after Global Average Pooling.
-4. <b>Early Stopping & ReduceLROnPlateau</b>: Restores best checkpoint weights if validation loss stops improving.
-</details>
-
----
 
 ## 📜 License & Acknowledgments
 
