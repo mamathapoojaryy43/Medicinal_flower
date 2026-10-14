@@ -12,23 +12,6 @@ An end-to-end Deep Learning and Explainable AI (XAI) system engineered to classi
 
 ---
 
-## 📌 Table of Contents
-- [Executive Overview](#-executive-overview)
-- [Key Features](#-key-features)
-- [System Architecture & Pipeline](#-system-architecture--pipeline)
-- [Explainable AI (Grad-CAM) Formulation](#-explainable-ai-grad-cam-formulation)
-- [Out-of-Distribution (OOD) Confidence Thresholding](#-out-of-distribution-ood-confidence-thresholding)
-- [Test Evaluation & Benchmarks](#-test-evaluation--benchmarks)
-- [Supported 31 Medicinal Flower Species](#-supported-31-medicinal-flower-species)
-- [Repository Structure](#-repository-structure)
-- [Installation & Quickstart](#-installation--quickstart)
-- [Running the Web Application](#-running-the-web-application)
-- [Command-Line Inference (predict.py)](#-command-line-inference-predictpy)
-- [Test Suite & Verification](#-test-suite--verification)
-- [Dataset Details & Source Attribution](#-dataset-details--source-attribution)
-- [Viva & Presentation Q&A Guide](#-viva--presentation-qa-guide)
-
----
 
 ## 🎯 Executive Overview
 
