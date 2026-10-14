@@ -1,0 +1,250 @@
+{
+    "Adathoda": {
+        "class_name": "Adathoda",
+        "common_name": "Adhatoda / Vasaka / Malabar Nut",
+        "scientific_name": "Justicia adhatoda",
+        "short_botanical_description": "An evergreen shrub featuring lanceolate leaves and white, tubular two-lipped flowers marked with purple streaks.",
+        "traditional_uses": "Traditionally used in Ayurvedic and traditional herbal practices as an oral decoction for soothing respiratory discomforts and throat irritations.",
+        "needs_manual_verification": false
+    },
+    "Allium_Cepa": {
+        "class_name": "Allium_Cepa",
+        "common_name": "Onion Flower",
+        "scientific_name": "Allium cepa",
+        "short_botanical_description": "Spherical umbel inflorescences composed of numerous small, white to pale purple star-shaped flowers atop hollow green scapes.",
+        "traditional_uses": "Commonly reported in folk remedies and traditional culinary wellness routines for supporting digestive comfort and general immunity.",
+        "needs_manual_verification": false
+    },
+    "Banana": {
+        "class_name": "Banana",
+        "common_name": "Banana Blossom / Banana Flower",
+        "scientific_name": "Musa paradisiaca",
+        "short_botanical_description": "Large teardrop-shaped dark purple to reddish bracts enclosing tubular yellowish flowers arranged in whorled rows.",
+        "traditional_uses": "Traditionally consumed in South Asian and Southeast Asian culinary traditions and folk routines for supporting digestive health.",
+        "needs_manual_verification": false
+    },
+    "Black_cumin": {
+        "class_name": "Black_cumin",
+        "common_name": "Black Cumin / Nigella Flower",
+        "scientific_name": "Nigella sativa",
+        "short_botanical_description": "Delicate pale blue to white solitary flowers with 5 to 10 petals surrounding intricate green seed capsules.",
+        "traditional_uses": "Seeds and floral extracts are traditionally used in Unani and Ayurvedic traditions for general digestive support and respiratory wellbeing.",
+        "needs_manual_verification": false
+    },
+    "Bush Clock Vine": {
+        "class_name": "Bush Clock Vine",
+        "common_name": "Bush Clock Vine / King's Mantle",
+        "scientific_name": "Thunbergia erecta",
+        "short_botanical_description": "Erect woody shrub featuring trumpet-shaped deep royal blue or purple flowers with bright yellow throats.",
+        "traditional_uses": "Commonly cultivated as an ornamental flower; reported in regional traditional practices for mild topical cooling applications.",
+        "needs_manual_verification": false
+    },
+    "Champaka": {
+        "class_name": "Champaka",
+        "common_name": "Golden Champa / Champak",
+        "scientific_name": "Magnolia champaca",
+        "short_botanical_description": "Highly fragrant narrow yellowish-orange to cream petals arranged in a cup-like spiral, growing on large evergreen trees.",
+        "traditional_uses": "Traditionally used in Ayurvedic aromatherapy, floral oils, and spiritual ceremonies for promoting relaxation and mental calmness.",
+        "needs_manual_verification": false
+    },
+    "Chitrak": {
+        "class_name": "Chitrak",
+        "common_name": "White Leadwort / Chitrak",
+        "scientific_name": "Plumbago zeylanica",
+        "short_botanical_description": "Perennial subshrub with terminal racemes of white salverform flowers covered in sticky glandular hairs.",
+        "traditional_uses": "Roots and floral extracts are traditionally utilized in Ayurvedic preparations for digestive stimulation and skin wellness applications.",
+        "needs_manual_verification": false
+    },
+    "Common Lanthana": {
+        "class_name": "Common Lanthana",
+        "common_name": "Lantana / Wild Sage",
+        "scientific_name": "Lantana camara",
+        "short_botanical_description": "Dense umbrella-like flat-topped clusters of small tubular flowers displaying color variations from yellow, orange, to pink and red.",
+        "traditional_uses": "Commonly reported in folk traditions for mild topical poultices; noted in traditional literature for aromatic leaf oils.",
+        "needs_manual_verification": false
+    },
+    "Crown Flower": {
+        "class_name": "Crown Flower",
+        "common_name": "Giant Milkweed / Crown Flower / Arka",
+        "scientific_name": "Calotropis gigantea",
+        "short_botanical_description": "Waxy, crown-shaped flowers in shades of white or lavender with a prominent central stamen column, surrounded by thick obovate leaves.",
+        "traditional_uses": "Used in traditional Indian ceremonies and Ayurvedic folk applications for external joint warmth; handles require caution due to milky latex.",
+        "needs_manual_verification": false
+    },
+    "Datura": {
+        "class_name": "Datura",
+        "common_name": "Thornapple / Datura / Kanaka",
+        "scientific_name": "Datura metel",
+        "short_botanical_description": "Large, fragrant trumpet-shaped flowers in white, purple, or yellow, producing spiny globose seed capsules.",
+        "traditional_uses": "Historically cited in traditional literature for specific external poultice applications; requires strict expert supervision due to natural alkaloids.",
+        "needs_manual_verification": false
+    },
+    "Four O' Clock Flower": {
+        "class_name": "Four O' Clock Flower",
+        "common_name": "Marvel of Peru / Four O'Clock",
+        "scientific_name": "Mirabilis jalapa",
+        "short_botanical_description": "Fragrant trumpet-shaped flowers opening in late afternoon, available in vibrant magenta, yellow, white, or variegated hues.",
+        "traditional_uses": "Traditionally used in indigenous herbal practices for mild topical soothing and as a natural flower dye source.",
+        "needs_manual_verification": false
+    },
+    "Hibiscus": {
+        "class_name": "Hibiscus",
+        "common_name": "China Rose / Hibiscus / Gudhal",
+        "scientific_name": "Hibiscus rosa-sinensis",
+        "short_botanical_description": "Large, showy bell-shaped flowers with five broad petals and a long, prominent central staminal column.",
+        "traditional_uses": "Traditionally used in floral teas and herbal hair oil preparations for supporting hair vitality and skin hydration.",
+        "needs_manual_verification": false
+    },
+    "Honey Suckle": {
+        "class_name": "Honey Suckle",
+        "common_name": "Japanese Honeysuckle",
+        "scientific_name": "Lonicera japonica",
+        "short_botanical_description": "Fragrant tubular two-lipped flowers that open white and mature to golden yellow, growing on trailing vines.",
+        "traditional_uses": "Commonly reported in traditional East Asian herbal teas and remedies for cooling body comfort during seasonal changes.",
+        "needs_manual_verification": false
+    },
+    "Indian Mallow": {
+        "class_name": "Indian Mallow",
+        "common_name": "Country Mallow / Abutilon / Atibala",
+        "scientific_name": "Abutilon indicum",
+        "short_botanical_description": "Golden-yellow solitary flowers with five overlapping petals and heart-shaped serrated leaves.",
+        "traditional_uses": "Traditionally used in Ayurvedic formulations for supporting muscular comfort, oral hygiene rinses, and general stamina.",
+        "needs_manual_verification": false
+    },
+    "Jatropha": {
+        "class_name": "Jatropha",
+        "common_name": "Peregrina / Spicy Jatropha",
+        "scientific_name": "Jatropha integerrima",
+        "short_botanical_description": "Star-shaped bright red or pink 5-petaled flowers arranged in terminal cymes against glossy dark green leaves.",
+        "traditional_uses": "Widely grown as an ornamental garden plant; regional folk accounts describe traditional usage of leaf extracts for topical washes.",
+        "needs_manual_verification": false
+    },
+    "Malabar Melastome": {
+        "class_name": "Malabar Melastome",
+        "common_name": "Malabar Melastome / Indian Rhododendron",
+        "scientific_name": "Melastoma malabathricum",
+        "short_botanical_description": "Vibrant mauve-to-purple 5-petaled flowers with distinctive yellow stamens and ribbed oval leaves.",
+        "traditional_uses": "Leaves and flowers are traditionally used in Southeast Asian folk wellness routines for gentle astringent mouth rinses and skin comfort.",
+        "needs_manual_verification": false
+    },
+    "Marigold": {
+        "class_name": "Marigold",
+        "common_name": "African Marigold / Genda",
+        "scientific_name": "Tagetes erecta",
+        "short_botanical_description": "Dense pom-pom-like flower heads with bright yellow, orange, or golden ray florets and aromatic pinnate leaves.",
+        "traditional_uses": "Widely used in traditional cultural garlands and herbal ointments for supporting skin comfort and eye wellness routines.",
+        "needs_manual_verification": false
+    },
+    "Nagapoovu": {
+        "class_name": "Nagapoovu",
+        "common_name": "Cannonball Tree Flower / Nagalingam",
+        "scientific_name": "Couroupita guianensis",
+        "short_botanical_description": "Large, fragrant reddish-pink flowers with a hood-like structure covering the central stamens, blooming directly on tree trunks.",
+        "traditional_uses": "Revered in traditional spiritual practices; regional ethnomedical reports note flower extracts used in traditional soothing baths.",
+        "needs_manual_verification": false
+    },
+    "Nityakalyani": {
+        "class_name": "Nityakalyani",
+        "common_name": "Madagascar Periwinkle / Sadabahar",
+        "scientific_name": "Catharanthus roseus",
+        "short_botanical_description": "Salverform 5-petaled flowers in shades of pink, rose, or white with a darker red central eye.",
+        "traditional_uses": "Traditionally cited in folk remedies for supporting general metabolic wellness; source of well-studied plant alkaloids.",
+        "needs_manual_verification": false
+    },
+    "Pinwheel": {
+        "class_name": "Pinwheel",
+        "common_name": "Crape Jasmine / Pinwheel Flower / Tagar",
+        "scientific_name": "Tabernaemontana divaricata",
+        "short_botanical_description": "Pure white, 5-lobed pinwheel-shaped petals with a central yellow throat blooming against shiny dark green foliage.",
+        "traditional_uses": "Flowers are traditionally used in temple rituals and floral water drops reported in Ayurvedic traditions for soothing eye hygiene.",
+        "needs_manual_verification": false
+    },
+    "Rose": {
+        "class_name": "Rose",
+        "common_name": "Rose / Gulab",
+        "scientific_name": "Rosa spp.",
+        "short_botanical_description": "Fragrant multi-petaled flowers in varied hues of red, pink, and white supported by thorny stems.",
+        "traditional_uses": "Rose petals and rose water are traditionally used in Unani and Ayurvedic traditions for skin hydration, emotional relaxation, and culinary aromatics.",
+        "needs_manual_verification": false
+    },
+    "Shankupushpam": {
+        "class_name": "Shankupushpam",
+        "common_name": "Butterfly Pea / Shankhpushpi / Blue Pea",
+        "scientific_name": "Clitoria ternatea",
+        "short_botanical_description": "Striking deep cobalt blue, conch-shell-shaped solitary flowers with a white or pale yellow center growing on climbing vines.",
+        "traditional_uses": "Traditionally valued in Ayurvedic Medhya Rasayana formulations for supporting cognitive focus, memory clarity, and herbal teas.",
+        "needs_manual_verification": false
+    },
+    "Spider Lily": {
+        "class_name": "Spider Lily",
+        "common_name": "Beach Spider Lily",
+        "scientific_name": "Hymenocallis littoralis",
+        "short_botanical_description": "Pure white spider-like blossoms featuring long slender petals extending from a central delicate stamina cup.",
+        "traditional_uses": "Popular ornamental blossom; regional folk literature notes traditional warm bulb/leaf compresses for joint support.",
+        "needs_manual_verification": false
+    },
+    "Sunflower": {
+        "class_name": "Sunflower",
+        "common_name": "Common Sunflower / Surajmukhi",
+        "scientific_name": "Helianthus annuus",
+        "short_botanical_description": "Large composite flower head consisting of yellow ray florets surrounding a dense dark central disk of disk florets.",
+        "traditional_uses": "Petals and seeds are traditionally used in wellness infusions and culinary oils rich in natural fatty acids and Vitamin E.",
+        "needs_manual_verification": false
+    },
+    "Sweet_pea": {
+        "class_name": "Sweet_pea",
+        "common_name": "Sweet Pea",
+        "scientific_name": "Lathyrus odoratus",
+        "short_botanical_description": "Fragrant butterfly-like flowers in pastel purples, pinks, and whites growing on tendril-bearing climbing stems.",
+        "traditional_uses": "Cultivated primarily as an aromatic ornamental flower; valued in traditional garden displays and floral perfumery.",
+        "needs_manual_verification": false
+    },
+    "Thechi": {
+        "class_name": "Thechi",
+        "common_name": "Jungle Flame Ixora / Thechi / Rangan",
+        "scientific_name": "Ixora coccinea",
+        "short_botanical_description": "Dense round clusters of small, tubular, 4-petaled bright scarlet or orange flowers growing on compact evergreen bushes.",
+        "traditional_uses": "Flowers and roots are traditionally used in Ayurvedic preparations for skin soothing, oral hygiene, and digestive wellbeing.",
+        "needs_manual_verification": false
+    },
+    "Thumba": {
+        "class_name": "Thumba",
+        "common_name": "Thumba / White Dead-Nettle",
+        "scientific_name": "Leucas aspera",
+        "short_botanical_description": "Small, hooded white flowers arranged in dense whorled clusters along square pubescent stems.",
+        "traditional_uses": "Traditionally used in South Indian Ayurvedic traditions and Onam floral decorations, as well as nasal drops in traditional remedies for head comfort.",
+        "needs_manual_verification": false
+    },
+    "Touch Me Not": {
+        "class_name": "Touch Me Not",
+        "common_name": "Sensitive Plant / Touch-Me-Not / Lajwanti",
+        "scientific_name": "Mimosa pudica",
+        "short_botanical_description": "Fluffy, globe-like pinkish-purple ball flowers accompanied by compound leaves that fold inward immediately when touched.",
+        "traditional_uses": "Traditionally utilized in Ayurvedic medicine for supporting urinary tract comfort, skin cooling, and healthy digestive function.",
+        "needs_manual_verification": false
+    },
+    "Tridax procumbens": {
+        "class_name": "Tridax procumbens",
+        "common_name": "Coatbuttons / Tridax Daisy / Jayanti",
+        "scientific_name": "Tridax procumbens",
+        "short_botanical_description": "Small daisy-like flower heads with white to pale yellow 3-toothed ray florets atop hairy, spreading stems.",
+        "traditional_uses": "Leaf juice and flower extract are widely reported in traditional folk remedies for supporting natural wound healing and soothing skin grazes.",
+        "needs_manual_verification": false
+    },
+    "Wild potato vine": {
+        "class_name": "Wild potato vine",
+        "common_name": "Wild Potato Vine / Manroot",
+        "scientific_name": "Ipomoea pandurata",
+        "short_botanical_description": "Large funnel-shaped white morning-glory-like flowers with deep pink to purple throats growing on trailing vines.",
+        "traditional_uses": "Tuberous roots and flowers are documented in Native American traditional herbal practices; flagged for botanical confirmation due to regional variations.",
+        "needs_manual_verification": true
+    },
+    "Yellow Daisy": {
+        "class_name": "Yellow Daisy",
+        "common_name": "Yellow Daisy / Wedelia / Yellow Dot",
+        "scientific_name": "Wedelia chinensis",
+        "short_botanical_description": "Bright yellow daisy-like solitary flower heads blooming on low-growing, creeping herbaceous stems.",
+        "traditional_uses": "Traditionally used in Ayurvedic herbs (Bhringraj substitute) for supporting hair health, liver wellness, and soothing bath preparations.",
+        "needs_manual_verification": false
+    }
+}

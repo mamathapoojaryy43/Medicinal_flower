@@ -1,0 +1,68 @@
+MEDICINAL FLOWER RECOGNITION - TEST SET CLASSIFICATION REPORT
+======================================================================
+
+                      precision    recall  f1-score   support
+
+            Adathoda     1.0000    0.9000    0.9474        20
+         Allium_Cepa     1.0000    1.0000    1.0000       129
+              Banana     0.9600    0.9600    0.9600        25
+         Black_cumin     1.0000    1.0000    1.0000       189
+     Bush Clock Vine     1.0000    0.9545    0.9767        22
+            Champaka     1.0000    1.0000    1.0000        35
+             Chitrak     1.0000    0.9375    0.9677        48
+     Common Lanthana     1.0000    1.0000    1.0000        35
+        Crown Flower     1.0000    0.9500    0.9744        20
+              Datura     1.0000    1.0000    1.0000        36
+Four O' Clock Flower     1.0000    0.9688    0.9841        32
+            Hibiscus     0.9688    0.9688    0.9688        32
+        Honey Suckle     0.9737    1.0000    0.9867        37
+       Indian Mallow     1.0000    0.9787    0.9892        47
+            Jatropha     0.9821    1.0000    0.9910        55
+   Malabar Melastome     1.0000    1.0000    1.0000        37
+            Marigold     1.0000    0.9808    0.9903        52
+           Nagapoovu     1.0000    1.0000    1.0000        22
+        Nityakalyani     0.9444    0.9714    0.9577        35
+            Pinwheel     1.0000    1.0000    1.0000        36
+                Rose     1.0000    0.9762    0.9880        42
+       Shankupushpam     0.9487    1.0000    0.9737        37
+         Spider Lily     0.9500    1.0000    0.9744        19
+           Sunflower     0.9808    1.0000    0.9903        51
+           Sweet_pea     0.9939    1.0000    0.9970       164
+              Thechi     0.9778    0.9778    0.9778        45
+              Thumba     0.9655    1.0000    0.9825        28
+        Touch Me Not     1.0000    1.0000    1.0000        31
+   Tridax procumbens     0.9737    1.0000    0.9867        37
+    Wild potato vine     0.9655    1.0000    0.9825        28
+        Yellow Daisy     1.0000    1.0000    1.0000        30
+
+            accuracy                         0.9897      1456
+           macro avg     0.9866    0.9847    0.9854      1456
+        weighted avg     0.9900    0.9897    0.9897      1456
+
+
+======================================================================
+TOP 5 CLASSES WITH HIGHEST F1-SCORE:
+ - Allium_Cepa              : F1=1.0000, Precision=1.0000, Recall=1.0000, Support=129
+ - Black_cumin              : F1=1.0000, Precision=1.0000, Recall=1.0000, Support=189
+ - Champaka                 : F1=1.0000, Precision=1.0000, Recall=1.0000, Support=35
+ - Common Lanthana          : F1=1.0000, Precision=1.0000, Recall=1.0000, Support=35
+ - Datura                   : F1=1.0000, Precision=1.0000, Recall=1.0000, Support=36
+
+BOTTOM 5 CLASSES WITH LOWEST F1-SCORE:
+ - Hibiscus                 : F1=0.9688, Precision=0.9688, Recall=0.9688, Support=32
+ - Chitrak                  : F1=0.9677, Precision=1.0000, Recall=0.9375, Support=48
+ - Banana                   : F1=0.9600, Precision=0.9600, Recall=0.9600, Support=25
+ - Nityakalyani             : F1=0.9577, Precision=0.9444, Recall=0.9714, Support=35
+ - Adathoda                 : F1=0.9474, Precision=1.0000, Recall=0.9000, Support=20
+
+MOST FREQUENTLY CONFUSED CLASS PAIRS:
+ - True: Adathoda               --> Predicted: Banana                 (1 instances)
+ - True: Adathoda               --> Predicted: Shankupushpam          (1 instances)
+ - True: Banana                 --> Predicted: Honey Suckle           (1 instances)
+ - True: Bush Clock Vine        --> Predicted: Shankupushpam          (1 instances)
+ - True: Chitrak                --> Predicted: Nityakalyani           (1 instances)
+ - True: Chitrak                --> Predicted: Thumba                 (1 instances)
+ - True: Chitrak                --> Predicted: Wild potato vine       (1 instances)
+ - True: Crown Flower           --> Predicted: Thechi                 (1 instances)
+ - True: Four O' Clock Flower   --> Predicted: Nityakalyani           (1 instances)
+ - True: Hibiscus               --> Predicted: Sweet_pea              (1 instances)

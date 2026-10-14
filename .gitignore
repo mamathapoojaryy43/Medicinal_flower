@@ -1,0 +1,54 @@
+# ==============================================================================
+# Medicinal Flower Recognition & Explainable AI - Git Ignore
+# ==============================================================================
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Datasets (large image archives kept out of Git; documented in README)
+dataset/
+combined_dataset/
+IMFI Indian Medicinal Flower Image Dataset/
+
+# Flask runtime uploaded images & generated Grad-CAM heatmaps
+app/static/uploads/*
+!app/static/uploads/.gitkeep
+app/static/gradcam/*
+!app/static/gradcam/.gitkeep
+
+# Archive & backup files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary CLI prediction exports & logs
+result.json
+output.json
+gradcam_*.png
+*.log
+
+# IDE & Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+desktop.ini
+.DS_Store

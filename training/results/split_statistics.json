@@ -1,0 +1,207 @@
+{
+    "random_seed": 42,
+    "split_ratios": {
+        "train": 0.7,
+        "validation": 0.15,
+        "test": 0.15
+    },
+    "totals": {
+        "train": 6645,
+        "validation": 1415,
+        "test": 1456,
+        "overall": 9516
+    },
+    "class_counts_per_split": {
+        "train_classes": 31,
+        "validation_classes": 31,
+        "test_classes": 31
+    },
+    "class_details": {
+        "Adathoda": {
+            "train": 89,
+            "validation": 19,
+            "test": 20,
+            "total": 128
+        },
+        "Allium_Cepa": {
+            "train": 598,
+            "validation": 128,
+            "test": 129,
+            "total": 855
+        },
+        "Banana": {
+            "train": 114,
+            "validation": 24,
+            "test": 25,
+            "total": 163
+        },
+        "Black_cumin": {
+            "train": 882,
+            "validation": 189,
+            "test": 189,
+            "total": 1260
+        },
+        "Bush Clock Vine": {
+            "train": 96,
+            "validation": 20,
+            "test": 22,
+            "total": 138
+        },
+        "Champaka": {
+            "train": 159,
+            "validation": 34,
+            "test": 35,
+            "total": 228
+        },
+        "Chitrak": {
+            "train": 220,
+            "validation": 47,
+            "test": 48,
+            "total": 315
+        },
+        "Common Lanthana": {
+            "train": 158,
+            "validation": 34,
+            "test": 35,
+            "total": 227
+        },
+        "Crown Flower": {
+            "train": 88,
+            "validation": 18,
+            "test": 20,
+            "total": 126
+        },
+        "Datura": {
+            "train": 161,
+            "validation": 34,
+            "test": 36,
+            "total": 231
+        },
+        "Four O' Clock Flower": {
+            "train": 147,
+            "validation": 31,
+            "test": 32,
+            "total": 210
+        },
+        "Hibiscus": {
+            "train": 146,
+            "validation": 31,
+            "test": 32,
+            "total": 209
+        },
+        "Honey Suckle": {
+            "train": 169,
+            "validation": 36,
+            "test": 37,
+            "total": 242
+        },
+        "Indian Mallow": {
+            "train": 212,
+            "validation": 45,
+            "test": 47,
+            "total": 304
+        },
+        "Jatropha": {
+            "train": 250,
+            "validation": 53,
+            "test": 55,
+            "total": 358
+        },
+        "Malabar Melastome": {
+            "train": 170,
+            "validation": 36,
+            "test": 37,
+            "total": 243
+        },
+        "Marigold": {
+            "train": 235,
+            "validation": 50,
+            "test": 52,
+            "total": 337
+        },
+        "Nagapoovu": {
+            "train": 98,
+            "validation": 21,
+            "test": 22,
+            "total": 141
+        },
+        "Nityakalyani": {
+            "train": 159,
+            "validation": 34,
+            "test": 35,
+            "total": 228
+        },
+        "Pinwheel": {
+            "train": 162,
+            "validation": 34,
+            "test": 36,
+            "total": 232
+        },
+        "Rose": {
+            "train": 192,
+            "validation": 41,
+            "test": 42,
+            "total": 275
+        },
+        "Shankupushpam": {
+            "train": 168,
+            "validation": 36,
+            "test": 37,
+            "total": 241
+        },
+        "Spider Lily": {
+            "train": 81,
+            "validation": 17,
+            "test": 19,
+            "total": 117
+        },
+        "Sunflower": {
+            "train": 231,
+            "validation": 49,
+            "test": 51,
+            "total": 331
+        },
+        "Sweet_pea": {
+            "train": 759,
+            "validation": 162,
+            "test": 164,
+            "total": 1085
+        },
+        "Thechi": {
+            "train": 210,
+            "validation": 45,
+            "test": 45,
+            "total": 300
+        },
+        "Thumba": {
+            "train": 125,
+            "validation": 26,
+            "test": 28,
+            "total": 179
+        },
+        "Touch Me Not": {
+            "train": 140,
+            "validation": 30,
+            "test": 31,
+            "total": 201
+        },
+        "Tridax procumbens": {
+            "train": 165,
+            "validation": 35,
+            "test": 37,
+            "total": 237
+        },
+        "Wild potato vine": {
+            "train": 126,
+            "validation": 27,
+            "test": 28,
+            "total": 181
+        },
+        "Yellow Daisy": {
+            "train": 135,
+            "validation": 29,
+            "test": 30,
+            "total": 194
+        }
+    }
+}

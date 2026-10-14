@@ -1,0 +1,203 @@
+{
+    "total_classes": 31,
+    "total_images": 9516,
+    "metrics": {
+        "min_class_size": {
+            "count": 117,
+            "classes": [
+                "Spider Lily"
+            ]
+        },
+        "max_class_size": {
+            "count": 1260,
+            "classes": [
+                "Black_cumin"
+            ]
+        },
+        "mean_images_per_class": 306.97,
+        "median_images_per_class": 231.0
+    },
+    "top_5_classes": [
+        {
+            "class": "Black_cumin",
+            "count": 1260,
+            "percentage": 13.24
+        },
+        {
+            "class": "Sweet_pea",
+            "count": 1085,
+            "percentage": 11.4
+        },
+        {
+            "class": "Allium_Cepa",
+            "count": 855,
+            "percentage": 8.98
+        },
+        {
+            "class": "Jatropha",
+            "count": 358,
+            "percentage": 3.76
+        },
+        {
+            "class": "Marigold",
+            "count": 337,
+            "percentage": 3.54
+        }
+    ],
+    "bottom_5_classes": [
+        {
+            "class": "Nagapoovu",
+            "count": 141,
+            "percentage": 1.48
+        },
+        {
+            "class": "Bush Clock Vine",
+            "count": 138,
+            "percentage": 1.45
+        },
+        {
+            "class": "Adathoda",
+            "count": 128,
+            "percentage": 1.35
+        },
+        {
+            "class": "Crown Flower",
+            "count": 126,
+            "percentage": 1.32
+        },
+        {
+            "class": "Spider Lily",
+            "count": 117,
+            "percentage": 1.23
+        }
+    ],
+    "empty_folders": [],
+    "corrupted_images_count": 0,
+    "corrupted_images": [],
+    "class_details": {
+        "Adathoda": {
+            "image_count": 128,
+            "percentage": 1.35
+        },
+        "Allium_Cepa": {
+            "image_count": 855,
+            "percentage": 8.98
+        },
+        "Banana": {
+            "image_count": 163,
+            "percentage": 1.71
+        },
+        "Black_cumin": {
+            "image_count": 1260,
+            "percentage": 13.24
+        },
+        "Bush Clock Vine": {
+            "image_count": 138,
+            "percentage": 1.45
+        },
+        "Champaka": {
+            "image_count": 228,
+            "percentage": 2.4
+        },
+        "Chitrak": {
+            "image_count": 315,
+            "percentage": 3.31
+        },
+        "Common Lanthana": {
+            "image_count": 227,
+            "percentage": 2.39
+        },
+        "Crown Flower": {
+            "image_count": 126,
+            "percentage": 1.32
+        },
+        "Datura": {
+            "image_count": 231,
+            "percentage": 2.43
+        },
+        "Four O' Clock Flower": {
+            "image_count": 210,
+            "percentage": 2.21
+        },
+        "Hibiscus": {
+            "image_count": 209,
+            "percentage": 2.2
+        },
+        "Honey Suckle": {
+            "image_count": 242,
+            "percentage": 2.54
+        },
+        "Indian Mallow": {
+            "image_count": 304,
+            "percentage": 3.19
+        },
+        "Jatropha": {
+            "image_count": 358,
+            "percentage": 3.76
+        },
+        "Malabar Melastome": {
+            "image_count": 243,
+            "percentage": 2.55
+        },
+        "Marigold": {
+            "image_count": 337,
+            "percentage": 3.54
+        },
+        "Nagapoovu": {
+            "image_count": 141,
+            "percentage": 1.48
+        },
+        "Nityakalyani": {
+            "image_count": 228,
+            "percentage": 2.4
+        },
+        "Pinwheel": {
+            "image_count": 232,
+            "percentage": 2.44
+        },
+        "Rose": {
+            "image_count": 275,
+            "percentage": 2.89
+        },
+        "Shankupushpam": {
+            "image_count": 241,
+            "percentage": 2.53
+        },
+        "Spider Lily": {
+            "image_count": 117,
+            "percentage": 1.23
+        },
+        "Sunflower": {
+            "image_count": 331,
+            "percentage": 3.48
+        },
+        "Sweet_pea": {
+            "image_count": 1085,
+            "percentage": 11.4
+        },
+        "Thechi": {
+            "image_count": 300,
+            "percentage": 3.15
+        },
+        "Thumba": {
+            "image_count": 179,
+            "percentage": 1.88
+        },
+        "Touch Me Not": {
+            "image_count": 201,
+            "percentage": 2.11
+        },
+        "Tridax procumbens": {
+            "image_count": 237,
+            "percentage": 2.49
+        },
+        "Wild potato vine": {
+            "image_count": 181,
+            "percentage": 1.9
+        },
+        "Yellow Daisy": {
+            "image_count": 194,
+            "percentage": 2.04
+        }
+    }
+}

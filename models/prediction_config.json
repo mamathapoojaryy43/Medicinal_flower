@@ -1,0 +1,83 @@
+{
+    "confidence_threshold": 0.6,
+    "method": "Maximum class probability thresholding evaluated on validation dataset",
+    "description": "If max probability >= threshold, the flower is recognized as one of the 31 supported classes; otherwise it is flagged as Not Recognized / Unsupported.",
+    "unrecognized_message": "This flower could not be confidently matched to any of the 31 supported flower classes.",
+    "selected_threshold_summary": {
+        "threshold": 0.6,
+        "validation_acceptance_rate_pct": 99.72,
+        "validation_accepted_accuracy_pct": 99.86
+    },
+    "validation_statistics": [
+        {
+            "threshold": 0.4,
+            "accepted_count": 1415,
+            "rejected_count": 0,
+            "acceptance_rate_pct": 100.0,
+            "accepted_accuracy_pct": 99.86
+        },
+        {
+            "threshold": 0.5,
+            "accepted_count": 1414,
+            "rejected_count": 1,
+            "acceptance_rate_pct": 99.93,
+            "accepted_accuracy_pct": 99.86
+        },
+        {
+            "threshold": 0.6,
+            "accepted_count": 1411,
+            "rejected_count": 4,
+            "acceptance_rate_pct": 99.72,
+            "accepted_accuracy_pct": 99.86
+        },
+        {
+            "threshold": 0.65,
+            "accepted_count": 1410,
+            "rejected_count": 5,
+            "acceptance_rate_pct": 99.65,
+            "accepted_accuracy_pct": 99.93
+        },
+        {
+            "threshold": 0.7,
+            "accepted_count": 1410,
+            "rejected_count": 5,
+            "acceptance_rate_pct": 99.65,
+            "accepted_accuracy_pct": 99.93
+        },
+        {
+            "threshold": 0.75,
+            "accepted_count": 1405,
+            "rejected_count": 10,
+            "acceptance_rate_pct": 99.29,
+            "accepted_accuracy_pct": 99.93
+        },
+        {
+            "threshold": 0.8,
+            "accepted_count": 1402,
+            "rejected_count": 13,
+            "acceptance_rate_pct": 99.08,
+            "accepted_accuracy_pct": 99.93
+        },
+        {
+            "threshold": 0.85,
+            "accepted_count": 1400,
+            "rejected_count": 15,
+            "acceptance_rate_pct": 98.94,
+            "accepted_accuracy_pct": 99.93
+        },
+        {
+            "threshold": 0.9,
+            "accepted_count": 1397,
+            "rejected_count": 18,
+            "acceptance_rate_pct": 98.73,
+            "accepted_accuracy_pct": 99.93
+        },
+        {
+            "threshold": 0.95,
+            "accepted_count": 1381,
+            "rejected_count": 34,
+            "acceptance_rate_pct": 97.6,
+            "accepted_accuracy_pct": 99.93
+        }
+    ]
+}

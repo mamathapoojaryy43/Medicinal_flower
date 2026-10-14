@@ -1,0 +1,354 @@
+{
+    "evaluation_dataset": "D:\\Medicinal_flower\\dataset\\test",
+    "num_test_images": 1456,
+    "num_test_classes": 31,
+    "overall_metrics": {
+        "test_accuracy": 0.9896978139877319,
+        "test_loss": 0.02484561875462532,
+        "macro_precision": 0.9866111147291259,
+        "macro_recall": 0.9846591908053817,
+        "macro_f1_score": 0.9853753766865246,
+        "weighted_precision": 0.9899538909838304,
+        "weighted_recall": 0.9896978021978022,
+        "weighted_f1_score": 0.9896650827426213
+    },
+    "top_5_highest_f1_classes": [
+        {
+            "class_name": "Allium_Cepa",
+            "f1_score": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 129
+        },
+        {
+            "class_name": "Black_cumin",
+            "f1_score": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 189
+        },
+        {
+            "class_name": "Champaka",
+            "f1_score": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 35
+        },
+        {
+            "class_name": "Common Lanthana",
+            "f1_score": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 35
+        },
+        {
+            "class_name": "Datura",
+            "f1_score": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 36
+        }
+    ],
+    "bottom_5_lowest_f1_classes": [
+        {
+            "class_name": "Hibiscus",
+            "f1_score": 0.96875,
+            "precision": 0.96875,
+            "recall": 0.96875,
+            "support": 32
+        },
+        {
+            "class_name": "Chitrak",
+            "f1_score": 0.967741935483871,
+            "precision": 1.0,
+            "recall": 0.9375,
+            "support": 48
+        },
+        {
+            "class_name": "Banana",
+            "f1_score": 0.96,
+            "precision": 0.96,
+            "recall": 0.96,
+            "support": 25
+        },
+        {
+            "class_name": "Nityakalyani",
+            "f1_score": 0.9577464788732394,
+            "precision": 0.9444444444444444,
+            "recall": 0.9714285714285714,
+            "support": 35
+        },
+        {
+            "class_name": "Adathoda",
+            "f1_score": 0.9473684210526315,
+            "precision": 1.0,
+            "recall": 0.9,
+            "support": 20
+        }
+    ],
+    "most_confused_pairs": [
+        {
+            "true_class": "Adathoda",
+            "predicted_class": "Banana",
+            "count": 1
+        },
+        {
+            "true_class": "Adathoda",
+            "predicted_class": "Shankupushpam",
+            "count": 1
+        },
+        {
+            "true_class": "Banana",
+            "predicted_class": "Honey Suckle",
+            "count": 1
+        },
+        {
+            "true_class": "Bush Clock Vine",
+            "predicted_class": "Shankupushpam",
+            "count": 1
+        },
+        {
+            "true_class": "Chitrak",
+            "predicted_class": "Nityakalyani",
+            "count": 1
+        },
+        {
+            "true_class": "Chitrak",
+            "predicted_class": "Thumba",
+            "count": 1
+        },
+        {
+            "true_class": "Chitrak",
+            "predicted_class": "Wild potato vine",
+            "count": 1
+        },
+        {
+            "true_class": "Crown Flower",
+            "predicted_class": "Thechi",
+            "count": 1
+        },
+        {
+            "true_class": "Four O' Clock Flower",
+            "predicted_class": "Nityakalyani",
+            "count": 1
+        },
+        {
+            "true_class": "Hibiscus",
+            "predicted_class": "Sweet_pea",
+            "count": 1
+        },
+        {
+            "true_class": "Indian Mallow",
+            "predicted_class": "Hibiscus",
+            "count": 1
+        },
+        {
+            "true_class": "Marigold",
+            "predicted_class": "Sunflower",
+            "count": 1
+        },
+        {
+            "true_class": "Nityakalyani",
+            "predicted_class": "Jatropha",
+            "count": 1
+        },
+        {
+            "true_class": "Rose",
+            "predicted_class": "Tridax procumbens",
+            "count": 1
+        },
+        {
+            "true_class": "Thechi",
+            "predicted_class": "Spider Lily",
+            "count": 1
+        }
+    ],
+    "per_class_metrics": {
+        "Adathoda": {
+            "precision": 1.0,
+            "recall": 0.9,
+            "f1_score": 0.9473684210526315,
+            "support": 20
+        },
+        "Allium_Cepa": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "support": 129
+        },
+        "Banana": {
+            "precision": 0.96,
+            "recall": 0.96,
+            "f1_score": 0.96,
+            "support": 25
+        },
+        "Black_cumin": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "support": 189
+        },
+        "Bush Clock Vine": {
+            "precision": 1.0,
+            "recall": 0.9545454545454546,
+            "f1_score": 0.9767441860465116,
+            "support": 22
+        },
+        "Champaka": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "support": 35
+        },
+        "Chitrak": {
+            "precision": 1.0,
+            "recall": 0.9375,
+            "f1_score": 0.967741935483871,
+            "support": 48
+        },
+        "Common Lanthana": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "support": 35
+        },
+        "Crown Flower": {
+            "precision": 1.0,
+            "recall": 0.95,
+            "f1_score": 0.9743589743589743,
+            "support": 20
+        },
+        "Datura": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "support": 36
+        },
+        "Four O' Clock Flower": {
+            "precision": 1.0,
+            "recall": 0.96875,
+            "f1_score": 0.9841269841269841,
+            "support": 32
+        },
+        "Hibiscus": {
+            "precision": 0.96875,
+            "recall": 0.96875,
+            "f1_score": 0.96875,
+            "support": 32
+        },
+        "Honey Suckle": {
+            "precision": 0.9736842105263158,
+            "recall": 1.0,
+            "f1_score": 0.9866666666666667,
+            "support": 37
+        },
+        "Indian Mallow": {
+            "precision": 1.0,
+            "recall": 0.9787234042553191,
+            "f1_score": 0.989247311827957,
+            "support": 47
+        },
+        "Jatropha": {
+            "precision": 0.9821428571428571,
+            "recall": 1.0,
+            "f1_score": 0.990990990990991,
+            "support": 55
+        },
+        "Malabar Melastome": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "support": 37
+        },
+        "Marigold": {
+            "precision": 1.0,
+            "recall": 0.9807692307692307,
+            "f1_score": 0.9902912621359223,
+            "support": 52
+        },
+        "Nagapoovu": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "support": 22
+        },
+        "Nityakalyani": {
+            "precision": 0.9444444444444444,
+            "recall": 0.9714285714285714,
+            "f1_score": 0.9577464788732394,
+            "support": 35
+        },
+        "Pinwheel": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "support": 36
+        },
+        "Rose": {
+            "precision": 1.0,
+            "recall": 0.9761904761904762,
+            "f1_score": 0.9879518072289156,
+            "support": 42
+        },
+        "Shankupushpam": {
+            "precision": 0.9487179487179487,
+            "recall": 1.0,
+            "f1_score": 0.9736842105263158,
+            "support": 37
+        },
+        "Spider Lily": {
+            "precision": 0.95,
+            "recall": 1.0,
+            "f1_score": 0.9743589743589743,
+            "support": 19
+        },
+        "Sunflower": {
+            "precision": 0.9807692307692307,
+            "recall": 1.0,
+            "f1_score": 0.9902912621359223,
+            "support": 51
+        },
+        "Sweet_pea": {
+            "precision": 0.9939393939393939,
+            "recall": 1.0,
+            "f1_score": 0.9969604863221885,
+            "support": 164
+        },
+        "Thechi": {
+            "precision": 0.9777777777777777,
+            "recall": 0.9777777777777777,
+            "f1_score": 0.9777777777777777,
+            "support": 45
+        },
+        "Thumba": {
+            "precision": 0.9655172413793104,
+            "recall": 1.0,
+            "f1_score": 0.9824561403508771,
+            "support": 28
+        },
+        "Touch Me Not": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "support": 31
+        },
+        "Tridax procumbens": {
+            "precision": 0.9736842105263158,
+            "recall": 1.0,
+            "f1_score": 0.9866666666666667,
+            "support": 37
+        },
+        "Wild potato vine": {
+            "precision": 0.9655172413793104,
+            "recall": 1.0,
+            "f1_score": 0.9824561403508771,
+            "support": 28
+        },
+        "Yellow Daisy": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "support": 30
+        }
+    }
+}
